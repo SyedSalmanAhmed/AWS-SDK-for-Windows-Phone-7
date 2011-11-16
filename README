@@ -9,3 +9,6 @@ The objectives of this work are:
 3. Support the creation of signed URL for content from Amazon S3
 
 To build this library, it requires .Net 4 and Microsoft Silverlight for Window Phone Toolkit.
+
+I have also blogged about this code at:
+http://confusedeveloper.wordpress.com/2011/11/16/windows-phone-7-async-sdk-for-amazon-s3/
