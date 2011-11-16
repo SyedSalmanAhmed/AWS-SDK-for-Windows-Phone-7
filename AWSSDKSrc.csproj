@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{72A3E37A-4397-46D9-9A80-61EF86F5AA39}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AWSSrc</RootNamespace>
+    <AssemblyName>AWSSrc</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net" />
+    <Reference Include="mscorlib.extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Amazon\Runtime\AmazonWebServiceRequest.cs" />
+    <Compile Include="Amazon\Runtime\AWSCredentials.cs" />
+    <Compile Include="Amazon\Runtime\Internal\IRequest.cs" />
+    <Compile Include="Amazon\Runtime\Internal\Util\Errors.cs" />
+    <Compile Include="Amazon\Runtime\Internal\Util\Information.cs" />
+    <Compile Include="Amazon\Runtime\RequestHandler.cs" />
+    <Compile Include="Amazon\S3\AmazonS3.cs" />
+    <Compile Include="Amazon\S3\AmazonS3Client.cs" />
+    <Compile Include="Amazon\S3\AmazonS3Config.cs" />
+    <Compile Include="Amazon\S3\Model\GetObjectRequest.cs" />
+    <Compile Include="Amazon\S3\Model\GetObjectResponse.cs" />
+    <Compile Include="Amazon\S3\Model\GetPreSignedUrlRequest.cs" />
+    <Compile Include="Amazon\S3\Model\PutObjectRequest.cs" />
+    <Compile Include="Amazon\S3\Model\PutObjectResponse.cs" />
+    <Compile Include="Amazon\S3\Model\ResponseHeaderOverrides.cs" />
+    <Compile Include="Amazon\S3\Model\S3Enumerations.cs" />
+    <Compile Include="Amazon\S3\Model\S3Error.cs" />
+    <Compile Include="Amazon\S3\Model\S3Request.cs" />
+    <Compile Include="Amazon\S3\Model\S3Response.cs" />
+    <Compile Include="Amazon\S3\Model\TransferProgressArgs.cs" />
+    <Compile Include="Amazon\S3\Util\AmazonS3Util.cs" />
+    <Compile Include="Amazon\S3\Util\AWSSDKUtils.cs" />
+    <Compile Include="Amazon\Runtime\Internal\Util\AzamonLogger.cs" />
+    <Compile Include="Amazon\S3\Util\S3Constants.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <ProjectExtensions />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

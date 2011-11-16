@@ -1,0 +1,10 @@
+E:\Official\Projects\LTD Message\wp7\source\LTDMessage\AWSSrc\Bin\Debug\AWSSrc.dll
+E:\Official\Projects\LTD Message\wp7\source\LTDMessage\AWSSrc\Bin\Debug\AWSSrc.pdb
+E:\Official\Projects\LTD Message\wp7\source\LTDMessage\AWSSrc\obj\Debug\ResolveAssemblyReference.cache
+E:\Official\Projects\LTD Message\wp7\source\LTDMessage\AWSSrc\obj\Debug\AWSSrc.dll
+E:\Official\Projects\LTD Message\wp7\source\LTDMessage\AWSSrc\obj\Debug\AWSSrc.pdb
+E:\Official\Projects\LTD Message\wp7\source\LTDMessage\AWSSDKSrc\Bin\Debug\AWSSrc.dll
+E:\Official\Projects\LTD Message\wp7\source\LTDMessage\AWSSDKSrc\Bin\Debug\AWSSrc.pdb
+E:\Official\Projects\LTD Message\wp7\source\LTDMessage\AWSSDKSrc\obj\Debug\ResolveAssemblyReference.cache
+E:\Official\Projects\LTD Message\wp7\source\LTDMessage\AWSSDKSrc\obj\Debug\AWSSrc.dll
+E:\Official\Projects\LTD Message\wp7\source\LTDMessage\AWSSDKSrc\obj\Debug\AWSSrc.pdb

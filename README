@@ -1,0 +1,11 @@
+This work is built on the foundations laid by Amazon Webservice SDK asynchronous version for .net 4.0 by David Pio (https://github.com/puffpio) and can be found at: https://github.com/puffpio/awssdk-async
+
+The sole purpose of this library is to support asynchronous communication between Windows Phone 7 and Amazon Simple Storage Services (S3). Since the windows phone 7.x supports a minimal implementation of various web request objects a need for such a library was deemed essential.
+
+The objectives of this work are:
+
+1. Support GET request to Amazon S3 server
+2. Support PUT request to Amazon S3 server
+3. Support the creation of signed URL for content from Amazon S3
+
+To build this library, it requires .Net 4 and Microsoft Silverlight for Window Phone Toolkit.
